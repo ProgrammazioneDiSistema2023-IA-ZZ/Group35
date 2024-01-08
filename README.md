@@ -76,7 +76,7 @@
 	 - In UPROGS :  _tm
 	 - In EXTRA : tm.c
 
-2. La systemcall che abbiamo creato ha la funzione di un mostrare un task manager semplificato: essa mostra , per ogni processo, il suo nome, il suo pid (id 	del processo), il suo stato (SLEEPING, RUNNING, RUNNABLE o ZOMBIE) e la quantità di memoria utilizzata espressa in byte.
+2. La systemcall che abbiamo creato ha la funzione di mostrare un task manager semplificato: essa mostra , per ogni processo, il suo nome, il suo pid (id 	del processo), il suo stato (SLEEPING, RUNNING, RUNNABLE o ZOMBIE) e la quantità di memoria utilizzata espressa in byte.
 Alla fine, viene visualizzato a console un piccolo menu che consente di fare 3 tipi di opzioni:
  	1. Aggiungere un processo
  	2. Killare un processo
