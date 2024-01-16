@@ -82,9 +82,10 @@ Alla fine, viene visualizzato a console un piccolo menu che consente di fare 3 t
  	2. Killare un processo
  	3. Fare exit
 
-	Al fine di mostrare il funzionamento della systemcall, abbiamo creato un'ulteriore systemcall (**test**), che crea un processo che sostanzialmente non fa nulla. Il procedimento che abbiamo seguito per la creazione di questa seconda systemcall è il medesimo.
+	Al fine di mostrare il funzionamento della systemcall, abbiamo creato un'ulteriore systemcall (**test**), che si occupa di modificare il campo "name" del processo appena creato inserendo: `t-pid`.
+Il procedimento che abbiamo seguito per la creazione di questa seconda systemcall è il medesimo.
 
-3. Per far funzionare il tutto, sono necessari 2 semplici comandi:
+4. Per far funzionare il tutto, sono necessari 2 semplici comandi:
 	- make -> compila il codice sorgente e genera l'immagine del kernel eseguibile
 	- make qemu-nox -> avvia e testa il kernel
 
