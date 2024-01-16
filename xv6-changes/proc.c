@@ -535,7 +535,7 @@ procdump(void)
 
 // cps functions
 int
-cps ()
+ptm ()
 {
   struct proc *pr;
 
