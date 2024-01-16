@@ -15,7 +15,7 @@ void print_menu() {
 int main(int argc, char *argv[]){
     char choice[10];
     while(1){
-        cps();
+        ptm();
 
         print_menu();
 
