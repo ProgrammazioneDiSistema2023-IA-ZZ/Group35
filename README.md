@@ -37,7 +37,7 @@
 
 	Infine, nel file **proc.c** abbiamo scritto il codice effettivo della systemcall che ne determina l'effettivo funzionamento:
 	```c
-	int cps() {
+	int ptm() {
   		struct proc *pr;
 
   		//Abilita gli interrupts sul processo
